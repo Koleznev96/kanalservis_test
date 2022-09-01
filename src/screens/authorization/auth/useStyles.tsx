@@ -3,6 +3,10 @@ import { Colors } from "../../../utils/Colors";
 import { relativeHeightPercent } from "../../../utils/CustomerStyles";
 
 export const styles = StyleSheet.create({
+    body: {
+        flex: 1,
+        backgroundColor: Colors.MainColor,
+    },
     container: {
         flex: 1,
         backgroundColor: Colors.MainColor,

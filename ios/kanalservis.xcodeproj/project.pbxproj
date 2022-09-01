@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* kanalservisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* kanalservisTests.m */; };
+		04621B3C28C08DE7004D4440 /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04621B3828C08DE7004D4440 /* Manrope-ExtraBold.ttf */; };
+		04621B3D28C08DE7004D4440 /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04621B3928C08DE7004D4440 /* Manrope-SemiBold.ttf */; };
+		04621B3E28C08DE7004D4440 /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04621B3A28C08DE7004D4440 /* Manrope-Medium.ttf */; };
+		04621B3F28C08DE7004D4440 /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04621B3B28C08DE7004D4440 /* Manrope-Bold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-kanalservis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-kanalservis.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -30,6 +34,10 @@
 		00E356EE1AD99517003FC87E /* kanalservisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kanalservisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* kanalservisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kanalservisTests.m; sourceTree = "<group>"; };
+		04621B3828C08DE7004D4440 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-ExtraBold.ttf"; path = "../src/assets/fonts/Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		04621B3928C08DE7004D4440 /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-SemiBold.ttf"; path = "../src/assets/fonts/Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		04621B3A28C08DE7004D4440 /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Medium.ttf"; path = "../src/assets/fonts/Manrope-Medium.ttf"; sourceTree = "<group>"; };
+		04621B3B28C08DE7004D4440 /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Bold.ttf"; path = "../src/assets/fonts/Manrope-Bold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* kanalservis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kanalservis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = kanalservis/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = kanalservis/AppDelegate.mm; sourceTree = "<group>"; };
@@ -83,6 +91,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		04621AD228C08D3E004D4440 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04621B3B28C08DE7004D4440 /* Manrope-Bold.ttf */,
+				04621B3828C08DE7004D4440 /* Manrope-ExtraBold.ttf */,
+				04621B3A28C08DE7004D4440 /* Manrope-Medium.ttf */,
+				04621B3928C08DE7004D4440 /* Manrope-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* kanalservis */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +111,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				04621AD228C08D3E004D4440 /* Resources */,
 			);
 			name = kanalservis;
 			sourceTree = "<group>";
@@ -242,8 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04621B3C28C08DE7004D4440 /* Manrope-ExtraBold.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				04621B3D28C08DE7004D4440 /* Manrope-SemiBold.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				04621B3F28C08DE7004D4440 /* Manrope-Bold.ttf in Resources */,
+				04621B3E28C08DE7004D4440 /* Manrope-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +620,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -659,6 +684,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
