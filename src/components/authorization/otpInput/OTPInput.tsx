@@ -20,8 +20,8 @@ export const OTPInput = (props: Props) => {
                 placeholderTextColor={"#5C6880"}
                 pinCount={4}
                 code={value}
+                autoFocusOnLoad={false}
                 onCodeChanged={(code) => setValue(code)}
-                autoFocusOnLoad
                 codeInputFieldStyle={styles.underlineStyleBase}
                 codeInputHighlightStyle={styles.underlineStyleHighLighted}
             />
